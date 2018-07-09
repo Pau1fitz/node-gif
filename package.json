@@ -1,0 +1,15 @@
+{
+  "name": "node-gif",
+  "version": "1.0.0",
+  "description": "Fetch gifs using node in the terminal",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Paul Fitzgerald",
+  "dependencies": {
+    "commander": "^2.16.0",
+    "giphy": "^0.0.4",
+    "got": "^8.3.2",
+    "request": "^2.87.0",
+    "term-image": "^0.1.1"
+  }
+}
