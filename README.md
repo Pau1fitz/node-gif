@@ -15,13 +15,13 @@ $ npm install -g node-gif
 ## Usage
 
 ```js
-node-gif [gifSearch]
+$ node-gif [gifSearch]
 ```
 
 ## Example
 
 ```js
-node-gif funny
+$ node-gif funny
 ```
 
 ## License
