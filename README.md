@@ -4,7 +4,7 @@
 
 Works in any terminal that supports colors.
 
-<img src="example.png">
+<img src="example.gif">
 
 ## Install
 
