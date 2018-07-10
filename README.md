@@ -4,7 +4,7 @@
 
 Works in any terminal that supports colors.
 
-<img src="example.gif">
+<img src="https://raw.githubusercontent.com/pau1fitz/node-gif/master/example.gif">
 
 ## Install
 
