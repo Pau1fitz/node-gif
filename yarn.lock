@@ -40,6 +40,13 @@ app-path@^2.1.0:
   dependencies:
     execa "^0.4.0"
 
+babel-runtime@^6.26.0:
+  version "6.26.0"
+  resolved "https://npm.onservo.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
+  dependencies:
+    core-js "^2.4.0"
+    regenerator-runtime "^0.11.0"
+
 base64-js@1.2.0:
   version "1.2.0"
   resolved "https://npm.onservo.com/base64-js/-/base64-js-1.2.0.tgz#a39992d723584811982be5e290bb6a53d86700f1"
@@ -72,6 +79,23 @@ cacheable-request@^2.1.1:
     normalize-url "2.0.1"
     responselike "1.0.2"
 
+camel-case@^3.0.0:
+  version "3.0.0"
+  resolved "https://npm.onservo.com/camel-case/-/camel-case-3.0.0.tgz#ca3c3688a4e9cf3a4cda777dc4dcbc713249cf73"
+  dependencies:
+    no-case "^2.2.0"
+    upper-case "^1.1.1"
+
+cfonts@^2.1.3:
+  version "2.1.3"
+  resolved "https://npm.onservo.com/cfonts/-/cfonts-2.1.3.tgz#baabf230d83b4f7da897d93dd7df621959981f71"
+  dependencies:
+    ansi-styles "^3.2.1"
+    babel-runtime "^6.26.0"
+    chalk "^2.4.1"
+    change-case "^3.0.2"
+    window-size "^1.1.0"
+
 chalk@^2.4.1:
   version "2.4.1"
   resolved "https://npm.onservo.com/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
@@ -79,6 +103,29 @@ chalk@^2.4.1:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
+
+change-case@^3.0.2:
+  version "3.0.2"
+  resolved "https://npm.onservo.com/change-case/-/change-case-3.0.2.tgz#fd48746cce02f03f0a672577d1d3a8dc2eceb037"
+  dependencies:
+    camel-case "^3.0.0"
+    constant-case "^2.0.0"
+    dot-case "^2.1.0"
+    header-case "^1.0.0"
+    is-lower-case "^1.1.0"
+    is-upper-case "^1.1.0"
+    lower-case "^1.1.1"
+    lower-case-first "^1.0.0"
+    no-case "^2.3.2"
+    param-case "^2.1.0"
+    pascal-case "^2.0.0"
+    path-case "^2.1.0"
+    sentence-case "^2.1.0"
+    snake-case "^2.1.0"
+    swap-case "^1.1.0"
+    title-case "^2.1.0"
+    upper-case "^1.1.1"
+    upper-case-first "^1.1.0"
 
 clone-response@1.0.2:
   version "1.0.2"
@@ -95,6 +142,17 @@ color-convert@^1.9.0:
 color-name@1.1.1:
   version "1.1.1"
   resolved "https://npm.onservo.com/color-name/-/color-name-1.1.1.tgz#4b1415304cf50028ea81643643bd82ea05803689"
+
+constant-case@^2.0.0:
+  version "2.0.0"
+  resolved "https://npm.onservo.com/constant-case/-/constant-case-2.0.0.tgz#4175764d389d3fa9c8ecd29186ed6005243b6a46"
+  dependencies:
+    snake-case "^2.1.0"
+    upper-case "^1.1.1"
+
+core-js@^2.4.0:
+  version "2.5.7"
+  resolved "https://npm.onservo.com/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -117,6 +175,12 @@ decompress-response@^3.3.0:
   dependencies:
     mimic-response "^1.0.0"
 
+define-property@^1.0.0:
+  version "1.0.0"
+  resolved "https://npm.onservo.com/define-property/-/define-property-1.0.0.tgz#769ebaaf3f4a63aad3af9e8d304c9bbe79bfb0e6"
+  dependencies:
+    is-descriptor "^1.0.0"
+
 depd@~1.1.2:
   version "1.1.2"
   resolved "https://npm.onservo.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
@@ -124,6 +188,12 @@ depd@~1.1.2:
 dom-walk@^0.1.0:
   version "0.1.1"
   resolved "https://npm.onservo.com/dom-walk/-/dom-walk-0.1.1.tgz#672226dc74c8f799ad35307df936aba11acd6018"
+
+dot-case@^2.1.0:
+  version "2.1.1"
+  resolved "https://npm.onservo.com/dot-case/-/dot-case-2.1.1.tgz#34dcf37f50a8e93c2b3bca8bb7fb9155c7da3bee"
+  dependencies:
+    no-case "^2.2.0"
 
 duplexer3@^0.1.4:
   version "0.1.4"
@@ -212,6 +282,13 @@ has-to-string-tag-x@^1.2.0:
   dependencies:
     has-symbol-support-x "^1.4.1"
 
+header-case@^1.0.0:
+  version "1.0.1"
+  resolved "https://npm.onservo.com/header-case/-/header-case-1.0.1.tgz#9535973197c144b09613cd65d317ef19963bd02d"
+  dependencies:
+    no-case "^2.2.0"
+    upper-case "^1.1.3"
+
 http-cache-semantics@3.8.1:
   version "3.8.1"
   resolved "https://npm.onservo.com/http-cache-semantics/-/http-cache-semantics-3.8.1.tgz#39b0e16add9b605bf0a9ef3d9daaf4843b4cacd2"
@@ -242,13 +319,49 @@ into-stream@^3.1.0:
     from2 "^2.1.1"
     p-is-promise "^1.1.0"
 
+is-accessor-descriptor@^1.0.0:
+  version "1.0.0"
+  resolved "https://npm.onservo.com/is-accessor-descriptor/-/is-accessor-descriptor-1.0.0.tgz#169c2f6d3df1f992618072365c9b0ea1f6878656"
+  dependencies:
+    kind-of "^6.0.0"
+
+is-buffer@^1.1.5:
+  version "1.1.6"
+  resolved "https://npm.onservo.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
+
 is-callable@^1.1.3:
   version "1.1.4"
   resolved "https://npm.onservo.com/is-callable/-/is-callable-1.1.4.tgz#1e1adf219e1eeb684d691f9d6a05ff0d30a24d75"
 
+is-data-descriptor@^1.0.0:
+  version "1.0.0"
+  resolved "https://npm.onservo.com/is-data-descriptor/-/is-data-descriptor-1.0.0.tgz#d84876321d0e7add03990406abbbbd36ba9268c7"
+  dependencies:
+    kind-of "^6.0.0"
+
+is-descriptor@^1.0.0:
+  version "1.0.2"
+  resolved "https://npm.onservo.com/is-descriptor/-/is-descriptor-1.0.2.tgz#3b159746a66604b04f8c81524ba365c5f14d86ec"
+  dependencies:
+    is-accessor-descriptor "^1.0.0"
+    is-data-descriptor "^1.0.0"
+    kind-of "^6.0.2"
+
 is-function@^1.0.1:
   version "1.0.1"
   resolved "https://npm.onservo.com/is-function/-/is-function-1.0.1.tgz#12cfb98b65b57dd3d193a3121f5f6e2f437602b5"
+
+is-lower-case@^1.1.0:
+  version "1.1.3"
+  resolved "https://npm.onservo.com/is-lower-case/-/is-lower-case-1.1.3.tgz#7e147be4768dc466db3bfb21cc60b31e6ad69393"
+  dependencies:
+    lower-case "^1.1.0"
+
+is-number@^3.0.0:
+  version "3.0.0"
+  resolved "https://npm.onservo.com/is-number/-/is-number-3.0.0.tgz#24fd6201a4782cf50561c810276afc7d12d71195"
+  dependencies:
+    kind-of "^3.0.2"
 
 is-object@^1.0.1:
   version "1.0.1"
@@ -265,6 +378,12 @@ is-retry-allowed@^1.1.0:
 is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://npm.onservo.com/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
+
+is-upper-case@^1.1.0:
+  version "1.1.2"
+  resolved "https://npm.onservo.com/is-upper-case/-/is-upper-case-1.1.2.tgz#8d0b1fa7e7933a1e58483600ec7d9661cbaf756f"
+  dependencies:
+    upper-case "^1.1.0"
 
 isarray@~1.0.0:
   version "1.0.0"
@@ -306,6 +425,16 @@ keyv@3.0.0:
   dependencies:
     json-buffer "3.0.0"
 
+kind-of@^3.0.2:
+  version "3.2.2"
+  resolved "https://npm.onservo.com/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
+  dependencies:
+    is-buffer "^1.1.5"
+
+kind-of@^6.0.0, kind-of@^6.0.2:
+  version "6.0.2"
+  resolved "https://npm.onservo.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
+
 load-bmfont@^1.2.3:
   version "1.3.0"
   resolved "https://npm.onservo.com/load-bmfont/-/load-bmfont-1.3.0.tgz#bb7e7c710de6bcafcb13cb3b8c81e0c0131ecbc9"
@@ -317,6 +446,16 @@ load-bmfont@^1.2.3:
     parse-bmfont-xml "^1.1.0"
     xhr "^2.0.1"
     xtend "^4.0.0"
+
+lower-case-first@^1.0.0:
+  version "1.0.2"
+  resolved "https://npm.onservo.com/lower-case-first/-/lower-case-first-1.0.2.tgz#e5da7c26f29a7073be02d52bac9980e5922adfa1"
+  dependencies:
+    lower-case "^1.1.2"
+
+lower-case@^1.1.0, lower-case@^1.1.1, lower-case@^1.1.2:
+  version "1.1.4"
+  resolved "https://npm.onservo.com/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
 
 lowercase-keys@1.0.0:
   version "1.0.0"
@@ -356,6 +495,12 @@ mkdirp@0.5.1:
   resolved "https://npm.onservo.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+no-case@^2.2.0, no-case@^2.3.2:
+  version "2.3.2"
+  resolved "https://npm.onservo.com/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"
+  dependencies:
+    lower-case "^1.1.1"
 
 normalize-url@2.0.1:
   version "2.0.1"
@@ -397,6 +542,12 @@ pako@^1.0.5:
   version "1.0.6"
   resolved "https://npm.onservo.com/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
 
+param-case@^2.1.0:
+  version "2.1.1"
+  resolved "https://npm.onservo.com/param-case/-/param-case-2.1.1.tgz#df94fd8cf6531ecf75e6bef9a0858fbc72be2247"
+  dependencies:
+    no-case "^2.2.0"
+
 parse-bmfont-ascii@^1.0.3:
   version "1.0.6"
   resolved "https://npm.onservo.com/parse-bmfont-ascii/-/parse-bmfont-ascii-1.0.6.tgz#11ac3c3ff58f7c2020ab22769079108d4dfa0285"
@@ -418,6 +569,19 @@ parse-headers@^2.0.0:
   dependencies:
     for-each "^0.3.2"
     trim "0.0.1"
+
+pascal-case@^2.0.0:
+  version "2.0.1"
+  resolved "https://npm.onservo.com/pascal-case/-/pascal-case-2.0.1.tgz#2d578d3455f660da65eca18ef95b4e0de912761e"
+  dependencies:
+    camel-case "^3.0.0"
+    upper-case-first "^1.1.0"
+
+path-case@^2.1.0:
+  version "2.1.1"
+  resolved "https://npm.onservo.com/path-case/-/path-case-2.1.1.tgz#94b8037c372d3fe2906e465bb45e25d226e8eea5"
+  dependencies:
+    no-case "^2.2.0"
 
 path-key@^1.0.0:
   version "1.0.0"
@@ -490,6 +654,10 @@ readable-stream@^2.0.0:
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
+regenerator-runtime@^0.11.0:
+  version "0.11.1"
+  resolved "https://npm.onservo.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+
 responselike@1.0.2:
   version "1.0.2"
   resolved "https://npm.onservo.com/responselike/-/responselike-1.0.2.tgz#918720ef3b631c5642be068f15ade5a46f4ba1e7"
@@ -508,9 +676,22 @@ sax@>=0.6.0:
   version "1.2.4"
   resolved "https://npm.onservo.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
+sentence-case@^2.1.0:
+  version "2.1.1"
+  resolved "https://npm.onservo.com/sentence-case/-/sentence-case-2.1.1.tgz#1f6e2dda39c168bf92d13f86d4a918933f667ed4"
+  dependencies:
+    no-case "^2.2.0"
+    upper-case-first "^1.1.2"
+
 setprototypeof@1.1.0:
   version "1.1.0"
   resolved "https://npm.onservo.com/setprototypeof/-/setprototypeof-1.1.0.tgz#d0bd85536887b6fe7c0d818cb962d9d91c54e656"
+
+snake-case@^2.1.0:
+  version "2.1.0"
+  resolved "https://npm.onservo.com/snake-case/-/snake-case-2.1.0.tgz#41bdb1b73f30ec66a04d4e2cad1b76387d4d6d9f"
+  dependencies:
+    no-case "^2.2.0"
 
 sort-keys@^2.0.0:
   version "2.0.0"
@@ -542,6 +723,13 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
+swap-case@^1.1.0:
+  version "1.1.2"
+  resolved "https://npm.onservo.com/swap-case/-/swap-case-1.1.2.tgz#c39203a4587385fad3c850a0bd1bcafa081974e3"
+  dependencies:
+    lower-case "^1.1.1"
+    upper-case "^1.1.1"
+
 term-image@^0.1.1:
   version "0.1.2"
   resolved "https://npm.onservo.com/term-image/-/term-image-0.1.2.tgz#a170daffa50553de9095fa02fcd40f4925570608"
@@ -565,6 +753,13 @@ tinycolor2@^1.1.2:
   version "1.4.1"
   resolved "https://npm.onservo.com/tinycolor2/-/tinycolor2-1.4.1.tgz#f4fad333447bc0b07d4dc8e9209d8f39a8ac77e8"
 
+title-case@^2.1.0:
+  version "2.1.1"
+  resolved "https://npm.onservo.com/title-case/-/title-case-2.1.1.tgz#3e127216da58d2bc5becf137ab91dae3a7cd8faa"
+  dependencies:
+    no-case "^2.2.0"
+    upper-case "^1.0.3"
+
 trim@0.0.1:
   version "0.0.1"
   resolved "https://npm.onservo.com/trim/-/trim-0.0.1.tgz#5858547f6b290757ee95cccc666fb50084c460dd"
@@ -572,6 +767,16 @@ trim@0.0.1:
 unpipe@1.0.0:
   version "1.0.0"
   resolved "https://npm.onservo.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
+
+upper-case-first@^1.1.0, upper-case-first@^1.1.2:
+  version "1.1.2"
+  resolved "https://npm.onservo.com/upper-case-first/-/upper-case-first-1.1.2.tgz#5d79bedcff14419518fd2edb0a0507c9b6859115"
+  dependencies:
+    upper-case "^1.1.1"
+
+upper-case@^1.0.3, upper-case@^1.1.0, upper-case@^1.1.1, upper-case@^1.1.3:
+  version "1.1.3"
+  resolved "https://npm.onservo.com/upper-case/-/upper-case-1.1.3.tgz#f6b4501c2ec4cdd26ba78be7222961de77621598"
 
 url-parse-lax@^3.0.0:
   version "3.0.0"
@@ -599,6 +804,13 @@ which@^1.2.8:
   resolved "https://npm.onservo.com/which/-/which-1.3.1.tgz#a45043d54f5805316da8d62f9f50918d3da70b0a"
   dependencies:
     isexe "^2.0.0"
+
+window-size@^1.1.0:
+  version "1.1.0"
+  resolved "https://npm.onservo.com/window-size/-/window-size-1.1.0.tgz#3b402d3244f35561db2c9761ad9d1e5286b07a2d"
+  dependencies:
+    define-property "^1.0.0"
+    is-number "^3.0.0"
 
 xhr@^2.0.1:
   version "2.5.0"

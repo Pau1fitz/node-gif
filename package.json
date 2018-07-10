@@ -6,6 +6,7 @@
   "license": "MIT",
   "author": "Paul Fitzgerald",
   "dependencies": {
+    "cfonts": "^2.1.3",
     "chalk": "^2.4.1",
     "got": "^8.3.2",
     "term-image": "^0.1.1"
