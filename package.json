@@ -15,6 +15,6 @@
     "node": ">=8"
   },
   "bin": {
-    "node-gif": "index.js"
+    "node-gif": "cli.js"
   }
 }
