@@ -4,8 +4,7 @@
 
 Works in any terminal that supports colors.
 
-<img src="screenshot.png" width="1082">
-
+<img src="example.png">
 
 ## Install
 
