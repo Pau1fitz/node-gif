@@ -26,4 +26,4 @@ $ node-gif funny
 
 ## License
 
-MIT © Paul Fitzgerald
+<a href="https://github.com/Pau1fitz/node-gif/blob/master/LICENSE">MIT © Paul Fitzgerald</a>
