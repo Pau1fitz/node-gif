@@ -28,14 +28,14 @@ if(args === '-h' || args === '--help') {
 }
 
 CFonts.say('node-gif', {
-	font: 'chrome',              // define the font face
-	align: 'left',              // define text alignment
-	colors: ['cyanBright','greenBright','white'],         // define all colors
-	background: 'transparent',  // define the background color, you can also use `backgroundColor` here as key
-	letterSpacing: 1,           // define letter spacing
-	lineHeight: 1,              // define the line height
-	space: true,                // define if the output text should have empty lines on top and on the bottom
-	maxLength: '0',             // define how many character can be on one line
+	font: 'chrome',              			// define the font face
+	align: 'left',              			// define text alignment
+	colors: ['cyanBright','greenBright','white'],   // define all colors
+	background: 'transparent',  			// define the background color, you can also use `backgroundColor` here as key
+	letterSpacing: 1,          			// define letter spacing
+	lineHeight: 1,              			// define the line height
+	space: true,                			// define if the output text should have empty lines on top and on the bottom
+	maxLength: '0',             			// define how many character can be on one line
 });
 
 const getGif = () => {
