@@ -43,7 +43,7 @@ const getGif = () => {
     const {body} = await got(`https://api.giphy.com/v1/gifs/search?api_key=p1gIrzabo2nzwNhZblbhIp4x9Xp8zYcn&q=${args}&limit=1&offset=0&rating=G&lang=en`);
     const json = JSON.parse(body);
     console.log(chalk.cyan('Fetching.... 🌍'))
-    let fetchGif = async () => {
+    const fetchGif = async () => {
         console.log(chalk.yellow('Cooking.... 👨‍🍳'))
         const { body } = await got(json.data[0].images.original.url, { encoding: null });
         console.log(chalk.red('Here we go.... 💃'))
