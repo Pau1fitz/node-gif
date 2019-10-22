@@ -40,7 +40,7 @@ CFonts.say('node-gif', {
 
 const getGif = () => {
   (async () => {
-    const {body} = await got(`https://api.giphy.com/v1/gifs/search?api_key=p1gIrzabo2nzwNhZblbhIp4x9Xp8zYcn&q=${args}&limit=1&offset=0&rating=G&lang=en`);
+    const { body } = await got(`https://api.giphy.com/v1/gifs/search?api_key=p1gIrzabo2nzwNhZblbhIp4x9Xp8zYcn&q=${args}&limit=1&offset=0&rating=G&lang=en`);
     const json = JSON.parse(body);
     console.log(chalk.cyan('Fetching.... 🌍'))
     const fetchGif = async () => {
