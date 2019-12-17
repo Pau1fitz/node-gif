@@ -18,12 +18,12 @@ const menu = {
 }
 
 if(args === '-v' || args === '--version') {
-  console.log(`v${version}`);
+  console.log(`v${version}`)
   return
 }
 
 if(args === '-h' || args === '--help') {
-  console.log(menu.main);
+  console.log(menu.main)
   return
 }
 
