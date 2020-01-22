@@ -35,7 +35,7 @@ CFonts.say('node-gif', {
 	letterSpacing: 1,          			// define letter spacing
 	lineHeight: 1,              			// define the line height
 	space: true,                			// define if the output text should have empty lines on top and on the bottom
-	maxLength: '0',             			// define how many character can be on one line
+	maxLength: '0',             			// define how many characters can be on one line
 })
 
 const getGif = () => {
