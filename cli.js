@@ -4,6 +4,7 @@ const terminalImage = require('term-image')
 const chalk = require('chalk')
 const CFonts = require('cfonts')
 const { version } = require('./package.json')
+
 const args = process.argv.slice(2)[0]
 
 const menu = {
