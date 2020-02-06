@@ -1,6 +1,6 @@
 # node-gif
 
-> Show gifs in the terminal
+> Display gifs in the terminal
 
 Works in any terminal that supports colors.
 
