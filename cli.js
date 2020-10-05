@@ -1,8 +1,9 @@
 #!/usr/bin/env node
+
+const CFonts = require('cfonts')
+const chalk = require('chalk')
 const got = require('got')
 const terminalImage = require('term-image')
-const chalk = require('chalk')
-const CFonts = require('cfonts')
 const { version } = require('./package.json')
 
 const args = process.argv.slice(2)[0]
